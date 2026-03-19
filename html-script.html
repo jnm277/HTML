@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<head>
+<style>
+.testbtn {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.testbtn:hover {
+  background-color: #059862;
+}
+</style>
+</head>
+
+<h1>O GRANDE BOTÃO ALTERADOR DE CORES</h1>
+
+<p id="demo">CLIQUE NO BOTÃO PARA VER A MÁGICA.</p>
+
+<script>
+function function1 () {
+  document.getElementById("demo").style.fontSize = "25px";
+  document.getElementById("demo").style.color = "red";
+  document.getElementById("demo").style.backgroundColor = "yellow";
+}
+</script>
+
+<button class="testbtn" type="button" onclick="function1()">CLIQUE</button>
+ 
+ <p> Clique para voltar ao normal <p/>
+ 
+ <script>
+ function function2 () {
+ document.getElementById("demo").style.fontSize = "20";
+  document.getElementById("demo").style.color = "black";
+  document.getElementById("demo").style.backgroundColor = "white";
+  }
+  </script>
+  
+  <style>
+  .btn2 {
+   background-color : #87CEED;
+   color : white;
+   font-size : 15px;
+   padding :12px;
+   border : 5px;
+   border-radius : 5px;
+   cursor: pointer;
+   }
+   
+   .btn2:hover {
+   background-color: #58c2ed;
+   }
+  </style>
+  <button class="btn2" type="button" onclick="function2()"> reset </button>
+</body>
+</html>
